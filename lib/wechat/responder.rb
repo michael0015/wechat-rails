@@ -1,3 +1,4 @@
+#encoding: utf-8
 module Wechat
   module Responder
     extend ActiveSupport::Concern

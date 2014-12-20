@@ -1,3 +1,4 @@
+#encoding: utf-8
 require 'wechat/client'
 require 'wechat/access_token'
 
