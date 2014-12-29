@@ -44,7 +44,7 @@ module Wechat
           yield(* match_responders(responders, message[:Content]))
 
         when :event
-          yield(* match_responders(responders, message[:Event]))
+          yield(* match_responders(responders, message[:EventKey]))
 
         else
           yield(responders.first)
