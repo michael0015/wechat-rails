@@ -37,7 +37,7 @@ module Wechat
           # true
           response
 
-        when 42001, 40014 #42001: access_token超时, 40014:不合法的access_token
+        when 42001, 40014, 40001 #42001: access_token超时, 40014,40001:不合法的access_token
           raise AccessTokenExpiredError
           
         else
